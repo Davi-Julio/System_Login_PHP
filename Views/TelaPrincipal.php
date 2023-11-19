@@ -25,7 +25,7 @@
     <div class="conteudo-main">
       <p>Seja Bem Vindo(a) a nossa página você está logado(a)!</p>
       <h2>Página Bussines</h2>
-      <p>Nossa Página principal Onde você pode acompanhartodas as novidades relaciondas ao mercado de tecnologia.</p>
+      <p>Nossa Página principal Onde você pode acompanhar todas as novidades relaciondas ao mercado de tecnologia.</p>
     </div>
     <!--conteudo-main-->
 
