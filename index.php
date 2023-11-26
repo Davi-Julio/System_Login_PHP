@@ -1,6 +1,7 @@
 <?php
 
 include_once 'Model/config.php';
+include_once "controller/controller.php";
 
 ?>
 
