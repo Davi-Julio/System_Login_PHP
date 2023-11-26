@@ -39,7 +39,7 @@ if (isset($_GET['cadastro'])) {
         $emailCadastro = $_GET['emailCadastro'];
         $passwordCadastro = $_GET['passwordCadastro'];
 
-        $sql = "SELECT * FROM users WHERE name = '$nameCadastro' AND email = '$emailCadastro' AND password = '$passwordCadastro'";
+        $sql = "SELECT * FROM users WHERE name = '$nameCadastro' OR email = '$emailCadastro' OR password = '$passwordCadastro'";
         $result2 = $mysqli->query($sql);
 
         if ($result2->num_rows > 0) {
